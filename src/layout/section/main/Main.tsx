@@ -9,7 +9,7 @@ export const Main = () => {
                 <div>
                     <span>Hi There</span>
                     <h2>I am Artem Ostapenko</h2>
-                    <h1>A Web Developer. </h1>
+                    <MainTitle>A Web Developer. </MainTitle>
                 </div>
                 <Photo src={photo} alt=""/>
             </FlexWrapper>
@@ -26,4 +26,5 @@ const Photo = styled.img`
     height: 430px;
     object-fit: cover;
 `
+const MainTitle = styled.h1``
 
