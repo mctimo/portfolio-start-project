@@ -8,7 +8,7 @@ export const Main = () => {
             <FlexWrapper align={"center"} justify={"space-around"}>
                 <div>
                     <span>Hi There</span>
-                    <h2>I am Artem Ostapenko</h2>
+                    <Name>I am Artem Ostapenko</Name>
                     <MainTitle>A Web Developer. </MainTitle>
                 </div>
                 <Photo src={photo} alt=""/>
@@ -19,7 +19,7 @@ export const Main = () => {
 
 const StyledMain = styled.div`
     min-height: 100vh;
-    background-color: #dea8ff;
+    background-color: #eca4a4;
 `
 const Photo = styled.img`
     width: 350px;
@@ -28,3 +28,4 @@ const Photo = styled.img`
 `
 const MainTitle = styled.h1``
 
+const Name = styled.h2``
